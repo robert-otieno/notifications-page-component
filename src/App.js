@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './App.css'
 
+import { angela, anna, jacob, kimberly, mark, nathan, rizky, chess } from './images'
+
 const App = () => {
   const [isRead, setIsRead] = useState(false)
 
@@ -17,7 +19,7 @@ const App = () => {
 
         <div className="mt-5 flex flex-col space-y-3">
           <div className={`flex items-center rounded-lg ${!isRead && 'bg-very_light_grayish_blue border border-light_grayish_blue_1'} p-3`}>
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-mark-webber.webp" alt="" />
+            <img className="h-12 w-12" src={mark} alt="" />
             <div className="ml-4 text-grayish_blue">
               <div className='flex'>
 
@@ -39,7 +41,7 @@ const App = () => {
           </div>
 
           <div className={`flex items-center rounded-lg ${!isRead && 'bg-very_light_grayish_blue border border-light_grayish_blue_1'} p-3`}>
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-angela-gray.webp" alt="" />
+            <img className="h-12 w-12" src={angela} alt="" />
             <div className="ml-4 text-grayish_blue">
               <div className='flex'>
                 <div>
@@ -59,7 +61,7 @@ const App = () => {
           </div>
 
           <div className={`flex items-center rounded-lg ${!isRead && 'bg-very_light_grayish_blue border border-light_grayish_blue_1'} p-3`}>
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-jacob-thompson.webp" alt="" />
+            <img className="h-12 w-12" src={jacob} alt="" />
             <div className="ml-4 text-grayish_blue">
               <div className='flex'>
                 <div>
@@ -80,7 +82,7 @@ const App = () => {
           </div>
 
           <div className="flex p-3">
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+            <img className="h-12 w-12" src={rizky} alt="" />
             <div className="ml-4 space-y-3 text-grayish_blue">
               <p><span className="font-bold text-very_dark_blue  hover:text-myBlue hover:cursor-pointer">Rizky Hasanuddin
               </span> sent you a private message</p>
@@ -94,7 +96,7 @@ const App = () => {
           </div>
 
           <div className="flex items-center rounded-lg p-3">
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-kimberly-smith.webp" alt="" />
+            <img className="h-12 w-12" src={kimberly} alt="" />
             <div className="flex w-full justify-between">
               <div className="ml-4 text-grayish_blue">
                 <p>
@@ -103,12 +105,12 @@ const App = () => {
                   </p>
                 <span className="text-sm">1 week ago</span>
               </div>
-              <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/image-chess.webp" alt="" />
+              <img className="h-12 w-12" src={chess} alt="" />
             </div>
           </div>
 
           <div className="flex items-center rounded-lg p-3">
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-nathan-peterson.webp" alt="" />
+            <img className="h-12 w-12" src={nathan} alt="" />
             <div className="ml-4 text-grayish_blue">
               <p>
                 <span className="font-bold text-very_dark_blue hover:text-myBlue hover:cursor-pointer">Nathan Peterson </span>
@@ -121,7 +123,7 @@ const App = () => {
           </div>
 
           <div className="flex items-center rounded-lg p-3">
-            <img className="h-12 w-12" src="http://127.0.0.1:5500/assets/images/avatar-anna-kim.webp" alt="" />
+            <img className="h-12 w-12" src={anna} alt="" />
             <div className="ml-4 text-grayish_blue">
               <p><span className="font-bold text-very_dark_blue hover:text-myBlue hover:cursor-pointer">Anna Kim</span> left the
                 group <span className="font-bold text-myBlue hover:cursor-pointer"> Chess Club</span></p>
