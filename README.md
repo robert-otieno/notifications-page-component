@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/notifications-page-component-with-react-and-tailwindcss-DWXi7N5HnO)
 - Live Site URL: [Live site](https://notifications-page-component-3x67.vercel.app/)
 
 ## My process
